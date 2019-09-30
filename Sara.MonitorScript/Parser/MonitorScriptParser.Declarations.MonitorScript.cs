@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Sara.Common.Extension;
 using Sara.MonitorScript.Lexer;
 using Sara.MonitorScript.Syntax;
 using Sara.MonitorScript.Syntax.Declarations;
 using Sara.MonitorScript.Syntax.Statements;
-using Sara.NETStandard.Common.Extension;
 
 namespace Sara.MonitorScript.Parser
 {

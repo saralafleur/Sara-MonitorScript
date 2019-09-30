@@ -4,6 +4,8 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <Version>1.2.5</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\.NET Standard\Sara.MonitorScript\Sara.MonitorScript.csproj" />
+    <ProjectReference Include="..\Sara.MonitorScript\Sara.MonitorScript.csproj" />
   </ItemGroup>
 
 </Project>

@@ -49,8 +49,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\.NET Standard\Sara.MonitorScript\Sara.MonitorScript.csproj">
-      <Project>{ca44ab73-8428-4ff8-9911-eea509fad6e0}</Project>
+    <ProjectReference Include="..\Sara.MonitorScript\Sara.MonitorScript.csproj">
+      <Project>{0b353392-01f6-4845-bb41-2110665353b7}</Project>
       <Name>Sara.MonitorScript</Name>
     </ProjectReference>
   </ItemGroup>

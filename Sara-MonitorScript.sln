@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET Framework", ".NET Fram
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET Core", ".NET Core", "{F173DF44-E46B-4BFF-8A89-5A32C82CFCE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet Empty", "NuGet Empty\NuGet Empty.csproj", "{0E5816FC-6685-4406-8C0D-C57AE9BDDE7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NuGet Empty", "NuGet Empty\NuGet Empty.csproj", "{0E5816FC-6685-4406-8C0D-C57AE9BDDE7E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E729801C-5E54-4905-8668-38998D296F6F}"
 	ProjectSection(SolutionItems) = preProject
@@ -17,17 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Sara-MonitorScript.nuspec = Sara-MonitorScript.nuspec
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sara.MonitorScript.Test", ".NET Core\Sara.MonitorScript.Test\Sara.MonitorScript.Test.csproj", "{A46C5979-A76C-4728-BB54-3657EAB050BB}"
-	ProjectSection(ProjectDependencies) = postProject
-		{CA44AB73-8428-4FF8-9911-EEA509FAD6E0} = {CA44AB73-8428-4FF8-9911-EEA509FAD6E0}
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sara.MonitorScript.Test", "Sara.MonitorScript.Test\Sara.MonitorScript.Test.csproj", "{FF20E928-1E06-4F36-B520-1FCDF616EC2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sara.MonitorScript.Console", ".NET Framework\Sara.MonitorScript.Console\Sara.MonitorScript.Console.csproj", "{0DB704B1-E156-43D4-99A9-9D4C541A6D0E}"
-	ProjectSection(ProjectDependencies) = postProject
-		{CA44AB73-8428-4FF8-9911-EEA509FAD6E0} = {CA44AB73-8428-4FF8-9911-EEA509FAD6E0}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sara.MonitorScript.Console", "Sara.MonitorScript.Console\Sara.MonitorScript.Console.csproj", "{0DB704B1-E156-43D4-99A9-9D4C541A6D0E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sara.MonitorScript", ".NET Standard\Sara.MonitorScript\Sara.MonitorScript.csproj", "{CA44AB73-8428-4FF8-9911-EEA509FAD6E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sara.MonitorScript", "Sara.MonitorScript\Sara.MonitorScript.csproj", "{0B353392-01F6-4845-BB41-2110665353B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,26 +33,26 @@ Global
 		{0E5816FC-6685-4406-8C0D-C57AE9BDDE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E5816FC-6685-4406-8C0D-C57AE9BDDE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E5816FC-6685-4406-8C0D-C57AE9BDDE7E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A46C5979-A76C-4728-BB54-3657EAB050BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A46C5979-A76C-4728-BB54-3657EAB050BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A46C5979-A76C-4728-BB54-3657EAB050BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A46C5979-A76C-4728-BB54-3657EAB050BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF20E928-1E06-4F36-B520-1FCDF616EC2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF20E928-1E06-4F36-B520-1FCDF616EC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF20E928-1E06-4F36-B520-1FCDF616EC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF20E928-1E06-4F36-B520-1FCDF616EC2E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0DB704B1-E156-43D4-99A9-9D4C541A6D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0DB704B1-E156-43D4-99A9-9D4C541A6D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DB704B1-E156-43D4-99A9-9D4C541A6D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DB704B1-E156-43D4-99A9-9D4C541A6D0E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CA44AB73-8428-4FF8-9911-EEA509FAD6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CA44AB73-8428-4FF8-9911-EEA509FAD6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CA44AB73-8428-4FF8-9911-EEA509FAD6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CA44AB73-8428-4FF8-9911-EEA509FAD6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B353392-01F6-4845-BB41-2110665353B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B353392-01F6-4845-BB41-2110665353B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B353392-01F6-4845-BB41-2110665353B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B353392-01F6-4845-BB41-2110665353B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{A46C5979-A76C-4728-BB54-3657EAB050BB} = {F173DF44-E46B-4BFF-8A89-5A32C82CFCE7}
+		{FF20E928-1E06-4F36-B520-1FCDF616EC2E} = {F173DF44-E46B-4BFF-8A89-5A32C82CFCE7}
 		{0DB704B1-E156-43D4-99A9-9D4C541A6D0E} = {D541226E-7A20-4EBE-82AE-992FE31693F2}
-		{CA44AB73-8428-4FF8-9911-EEA509FAD6E0} = {02F9A531-96A7-4BA7-BC0C-A58AAB090364}
+		{0B353392-01F6-4845-BB41-2110665353B7} = {02F9A531-96A7-4BA7-BC0C-A58AAB090364}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E60DD33A-B3BD-43B0-8CBB-5E20265106CF}
